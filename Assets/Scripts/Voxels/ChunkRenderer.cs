@@ -63,6 +63,7 @@ public class ChunkRenderer : MonoBehaviour
         {
             Regenerate = false;
             Regenerating = true;
+            gameObject.layer = LayerMask.NameToLayer("Terrain");
             AsyncChunkRenderer.Instance.TasksQueue.Enqueue(AsyncRegenerateMesh);
         }
     }

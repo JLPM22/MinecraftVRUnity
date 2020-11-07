@@ -67,10 +67,11 @@ namespace OculusModules.Grab
 
         public void SetLayer(int layer)
         {
-            for (int i = 0; i < GrabPoints.Length; ++i)
+            // TMP
+            gameObject.layer = layer;
+            foreach (Collider c in GetComponentsInChildren<Collider>())
             {
-                gameObject.layer = layer;
-                GrabPoints[i].gameObject.layer = layer;
+                c.gameObject.layer = layer;
             }
         }
 

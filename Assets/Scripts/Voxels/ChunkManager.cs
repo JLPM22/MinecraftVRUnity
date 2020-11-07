@@ -50,7 +50,7 @@ public class ChunkManager : MonoBehaviour
         for (int i = 0; i < NotFinishedChunks.Count; ++i)
         {
             Chunk c = NotFinishedChunks[i];
-            if (c.AsyncFinished)
+            if (c != null && c.AsyncFinished)
             {
                 // Physics
                 MeshCollider collider = c.gameObject.AddComponent<MeshCollider>();
