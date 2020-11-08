@@ -4825,4 +4825,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b542bca8667dd24d93b16f2a0cc1cd2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AliveSeconds: 1
+  AliveSeconds: 2

@@ -8,6 +8,7 @@ public class InputPlayerVR : MonoBehaviour
     public GameObject DirtPlacePrefab;
     public GameObject StonePlacePrefab;
 
+    public GameObject RocketLauncherPrefab;
     public GameObject TNTPrefab;
 
     public GameObject PickaxePrefab;
@@ -33,9 +34,14 @@ public class InputPlayerVR : MonoBehaviour
             CurrentObject = GameObject.Instantiate(PickaxePrefab, RightHandTrackingSpace.transform.position, Quaternion.identity).GetComponent<Grabbable>();
             IsRightHand = true;
         }
-        if (OVRInput.GetDown(OVRInput.Button.Two, OVRInput.Controller.RTouch))
+        else if (OVRInput.GetDown(OVRInput.Button.Two, OVRInput.Controller.RTouch))
         {
             CurrentObject = GameObject.Instantiate(TNTPrefab, RightHandTrackingSpace.transform.position, Quaternion.identity).GetComponent<Grabbable>();
+            IsRightHand = true;
+        }
+        else if (OVRInput.GetDown(OVRInput.Button.PrimaryThumbstick, OVRInput.Controller.RTouch))
+        {
+            CurrentObject = GameObject.Instantiate(RocketLauncherPrefab, RightHandTrackingSpace.transform.position, Quaternion.identity).GetComponent<Grabbable>();
             IsRightHand = true;
         }
         else if (OVRInput.GetDown(OVRInput.Button.One, OVRInput.Controller.LTouch))
