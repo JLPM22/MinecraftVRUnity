@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2318181261847063515}
   - component: {fileID: 2318181261847063518}
   - component: {fileID: 1554046615452914574}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: tnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -197,7 +197,7 @@ GameObject:
   - component: {fileID: 506223403494933537}
   - component: {fileID: 3901187796977393845}
   - component: {fileID: 2318181261847063516}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: default
   m_TagString: Untagged
   m_Icon: {fileID: 0}

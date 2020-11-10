@@ -11,6 +11,9 @@ public class InputPlayerVR : MonoBehaviour
     public GameObject RocketLauncherPrefab;
     public GameObject TNTPrefab;
 
+    public GameObject DiamondPrefab;
+    public GameObject StickPrefab;
+
     public GameObject PickaxePrefab;
     public GameObject RightHandTrackingSpace;
     public GameObject LeftHandTrackingSpace;
@@ -52,6 +55,16 @@ public class InputPlayerVR : MonoBehaviour
         else if (OVRInput.GetDown(OVRInput.Button.Two, OVRInput.Controller.LTouch))
         {
             CurrentObject = GameObject.Instantiate(StonePlacePrefab, RightHandTrackingSpace.transform.position, Quaternion.identity).GetComponent<Grabbable>();
+            IsRightHand = false;
+        }
+        else if (OVRInput.GetDown(OVRInput.Button.PrimaryThumbstick, OVRInput.Controller.LTouch))
+        {
+            CurrentObject = GameObject.Instantiate(DiamondPrefab, RightHandTrackingSpace.transform.position, Quaternion.identity).GetComponent<Grabbable>();
+            IsRightHand = false;
+        }
+        else if (OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger, OVRInput.Controller.LTouch))
+        {
+            CurrentObject = GameObject.Instantiate(StickPrefab, RightHandTrackingSpace.transform.position, Quaternion.identity).GetComponent<Grabbable>();
             IsRightHand = false;
         }
     }

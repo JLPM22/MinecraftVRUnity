@@ -58,7 +58,7 @@ public class TNTController : MonoBehaviour
                     }
                 }
                 // Sound
-                AudioSource.PlayOneShot(TNTSound, 4);
+                AudioSource.PlayOneShot(TNTSound, 2);
                 GetComponentInChildren<MeshRenderer>().enabled = false;
                 GameObject.Destroy(gameObject, 2.0f);
                 Destroying = true;

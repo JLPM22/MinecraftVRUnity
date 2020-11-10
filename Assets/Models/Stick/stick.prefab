@@ -10,8 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 3183428178772507056}
   - component: {fileID: 932686930103722736}
-  m_Layer: 0
-  m_Name: GrabPoint
+  m_Layer: 13
+  m_Name: stick
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -55,8 +55,8 @@ GameObject:
   - component: {fileID: 7081783216831833906}
   - component: {fileID: 5372973630822522488}
   - component: {fileID: 8914058722172779244}
-  m_Layer: 0
-  m_Name: default
+  m_Layer: 13
+  m_Name: stick
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 7653788823341012586}
   - component: {fileID: 1685015117424282694}
   - component: {fileID: 7078907300391050655}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: stick
   m_TagString: Untagged
   m_Icon: {fileID: 0}

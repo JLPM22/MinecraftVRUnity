@@ -362,6 +362,10 @@ MonoBehaviour:
     type: 3}
   TNTPrefab: {fileID: 3236606276713666185, guid: 6588ebf325200994998513c9b3865c50,
     type: 3}
+  DiamondPrefab: {fileID: 182210741635139571, guid: f2d82fec221598947a67ac5e06d64990,
+    type: 3}
+  StickPrefab: {fileID: 7024604755912084688, guid: 48667350e074cee43ae385717da2cec6,
+    type: 3}
   PickaxePrefab: {fileID: 76898044881163350, guid: ca0d3b8841e1cce469651c6191bd0d51,
     type: 3}
   RightHandTrackingSpace: {fileID: 1554408637}

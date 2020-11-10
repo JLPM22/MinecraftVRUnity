@@ -29,7 +29,7 @@ public class RocketLauncherController : MonoBehaviour
             direction.Normalize();
             rigidbody.AddForce(direction * LaunchForce, ForceMode.Impulse);
             // Sound
-            AudioSource.PlayOneShot(LaunchSound, 4.0f);
+            AudioSource.PlayOneShot(LaunchSound, 2.0f);
             // Particle System
             LaunchParticleSystem.Play();
         }

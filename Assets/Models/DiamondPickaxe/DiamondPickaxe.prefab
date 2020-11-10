@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2357490053397176726}
   - component: {fileID: 7989048659203121090}
   - component: {fileID: 6173401836769783379}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: DiamondPickaxe
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -196,7 +196,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4291724806681723660}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Pivot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -233,7 +233,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4374817363967865289}
   - component: {fileID: 8347667352961230293}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: PickCollider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -277,7 +277,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5885927733017824379}
   - component: {fileID: 6570225067422987188}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: PickCollider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -321,7 +321,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3279202347981090918}
   - component: {fileID: 3852580778055574892}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: PickColliderTrigger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -365,7 +365,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6900728759759620321}
   - component: {fileID: 5170523255193460995}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: GrabCollider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -409,7 +409,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8331662305205084900}
   - component: {fileID: 8989815693065142627}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: PickColliderTrigger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -454,7 +454,7 @@ GameObject:
   - component: {fileID: 156173271802134452}
   - component: {fileID: 3097906581037057790}
   - component: {fileID: 2006428117998772842}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: default
   m_TagString: Untagged
   m_Icon: {fileID: 0}

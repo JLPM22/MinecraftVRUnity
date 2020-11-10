@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 3401318249840180784}
   - component: {fileID: 3401318249840180780}
   - component: {fileID: 3401318249840180783}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: RocketLauncher
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -197,7 +197,7 @@ GameObject:
   - component: {fileID: 584987460460909004}
   - component: {fileID: 4124154728189244760}
   - component: {fileID: 3401318249840180785}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: default
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -288,7 +288,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1445103532671223865}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: LaunchPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -391,6 +391,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: RocketLauncherParticleSystem
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039332690163228342, guid: 871177560b6bb114c91194c9781369cf,
+        type: 3}
+      propertyPath: m_Layer
+      value: 13
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 871177560b6bb114c91194c9781369cf, type: 3}
